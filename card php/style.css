@@ -1,0 +1,56 @@
+
+body{    
+    display: flex;
+    background-color:#FCDD76	;
+    width: 1300px;
+    flex-direction: row;
+    justify-content: space-between;
+    border-style: double;
+    border-color: blueviolet;
+    
+}
+.top {
+    width: 100%;
+    justify-content: space-between;
+}
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    
+}
+.banana img{
+    border: black;
+    border-radius: 5%;
+    width: 600px;
+    height: 800px;
+}
+#phpjs {
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15%;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 1%;
+
+}
+.footer {
+    margin-top: 5%;
+    background-color: #808080;
+    display: flex;
+    justify-content: center;
+}
+
+
+ul {
+    display: flex;
+    justify-content:space-around;
+
+}
+li{
+    margin-left: 50px;
+}
